@@ -54,16 +54,10 @@
 	        		<li><a href="http://es.debugmodeon.com/grupo/grails">Grupo Grails en debugmodeon</a></li>
 	        		<li><a href="http://es.debugmodeon.com/grupo/griffon">Grupo Griffon en debugmodeon</a></li>
 				</ul>
-				<br /><br />
-				<h3>Patrocinadores:</h3>
-	        	<ul>
-	        		<li><a href="http://www.jobsket.com/"><img src="${createLinkTo(dir:'images',file:'logo-jobsket.jpg')}" alt="Jobsket" title="Jobsket" /></a></li>
-	        	</ul>
 			</div>
 			<br/><br/>
 			<div id="footer">
-				<p>grHispano es un simple directorio de programadores hispanos que utilizan groovy y alguno de los frameworks o librerías relacionadas con el lenguaje. Es un proyecto personal de <g:link controller="profile" action="show" id="danilat">Daniel Latorre</g:link>.</p>
-				<br/>
+				<p>grHispano es por el momento un simple directorio de programadores hispanos que utilizan groovy y alguno de los frameworks o librerías relacionadas con el lenguaje. El código es libre y <a href="http://github.com/danilat/grhispano">está disponible en github</a> para quien quiera verlo o utilizarlo como le de la gana, bajo licencia <a href="http://sam.zoy.org/wtfpl/">WTFPL</a> ;)</p>
 				<p><a target="_blank" href="http://www.stylishtemplate.com" title="Website Templates">Website Templates</a> by <a title="Free CSS Templates" href="http://www.solucija.com/">Solucija</a> &middot; Released under a <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Licence</a>. Powered by <a href="http://grails.org/">Grails</a></p>
 			</div>
 		</div>
