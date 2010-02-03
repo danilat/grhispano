@@ -1,0 +1,8 @@
+.project
+.settings/*
+target/*
+ROOT.war
+grhispano-test.launch
+grhispano.launch
+grhispano.tmproj
+stacktrace.log
