@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>grHispano: <g:layoutTitle default="" /></title>
+        <title>grHispano: <g:layoutTitle default="bla" /></title>
         <link rel="stylesheet" href="${createLinkTo(dir:'css',file:'style.css')}" />
         <link rel="shortcut icon" href="${createLinkTo(dir:'images',file:'favicon.ico')}" type="image/x-icon" />
         <g:layoutHead />
@@ -10,7 +10,8 @@
 		<div id="content">
 			<h1><a href="${createLink(controller:'profile',action:'list')}"><span class="hr">gr</span>Hispano</a></h1>
 			<ul id="top">
-				<li><a class="current" href="${createLink(controller:'profile',action:'list')}">Home</a></li>
+				<li><a href="${createLink(controller:'profile',action:'list')}">Desarrolladores</a></li>
+				<li><g:link controller="project">Proyectos</g:link></li>
 	            	<g:isNotLoggedIn>
 	            <li><g:link controller="register">Regístrate</g:link></li>
 	            <li><g:link controller="login">Entrar</g:link></li>

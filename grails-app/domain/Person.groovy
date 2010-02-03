@@ -3,7 +3,7 @@
  */
 class Person {
 	static transients = ['pass']
-	static hasMany = [authorities: Authority]
+	static hasMany = [authorities: Authority, projects: Person]
 	static belongsTo = Authority
 	
 	//static searchable = [only: ['username', 'userRealName']]
@@ -33,5 +33,9 @@ class Person {
 		userRealName(blank: false)
 		passwd(blank: false)
 		enabled()
+	}
+	
+	String toString(){
+		userRealName
 	}
 }

@@ -2,6 +2,7 @@ import org.codehaus.groovy.grails.plugins.springsecurity.Secured
 import grails.converters.*
 class ProfileController {
 	def authenticateService
+
 	//def searchableService
 	
     def index = { redirect(action:list,params:params) }
