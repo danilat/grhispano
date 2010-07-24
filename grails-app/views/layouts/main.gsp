@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>grHispano: <g:layoutTitle default="bla" /></title>
+        <title>grHispano: <g:layoutTitle default="" /></title>
         <link rel="stylesheet" href="${createLinkTo(dir:'css',file:'style.css')}" />
         <link rel="shortcut icon" href="${createLinkTo(dir:'images',file:'favicon.ico')}" type="image/x-icon" />
         <g:layoutHead />
@@ -34,26 +34,20 @@
 				<g:layoutBody />
 			</div>
 			<div id="right">
-				<%/*
-				<h3>Buscar en la web</h3>
-				<ul>
-					<li>
-						<g:form url='[controller: "searchable", action: "index"]' id="searchableForm" name="searchableForm" method="get">
-							<input type="text" id="query" name="q" value="${params.q}"/> <br/>
-							<input type="submit" value="Buscar">
-						</g:form>
-					</li>
-				</ul>
-				<br/>
-				*/%>
 				<h3>Sitios de la comunidad:</h3>
 				<ul>
 					<li><a href="http://groovy.org.es/">groovy.org.es</a></li>
 	        		<li><a href="http://grails.org.mx/">grails.org.mx</a></li>
-	        		<li><a href="http://groups.google.com/group/grailsencastellano">Lista grailsEnCastellano</a></li>
+					<li><a href="http://observatoriodegrails.com/">Observatorio de Grails</a></li>
+	        		<li><a href="http://groups.google.com/group/grails-spain">Grails Spain</a></li>
 	        		<li><a href="http://es.debugmodeon.com/grupo/groovy">Grupo Groovy en debugmodeon</a></li>
 	        		<li><a href="http://es.debugmodeon.com/grupo/grails">Grupo Grails en debugmodeon</a></li>
 	        		<li><a href="http://es.debugmodeon.com/grupo/griffon">Grupo Griffon en debugmodeon</a></li>
+				</ul>
+				<br/>
+				<h3>Patrocinadores:</h3>
+				<ul>
+					<li><a href="http://www.jobsket.es/"><img src="${createLinkTo(dir:'images',file:'logo-jobsket.jpg')}" alt="Jobsket - Empleo y curriculums" title="Jobsket - Empleo y curriculums"/></a></li>
 				</ul>
 			</div>
 			<br/><br/>

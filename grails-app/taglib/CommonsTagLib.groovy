@@ -26,7 +26,7 @@ class CommonsTagLib {
 			key = 'ABQIAAAA6_NbyUlUMh5DQaYd3JXikRQ5t1WJxELeJo7tjIZ-7svRBGSLtBT8_MxMvSLBl_advabyFTtF0R1TOQ'
 		break
 		case Environment.PRODUCTION:
-			key = 'ABQIAAAA6_NbyUlUMh5DQaYd3JXikRTZZDnpkZUU7d4pNHCSa9_eX_1qohSt6CRq17TD2lKbc5Ltsg1IsorwDw'
+			key = 'ABQIAAAA6_NbyUlUMh5DQaYd3JXikRRyt1koJ0XEDbfoADrrqSe5wPxbChTgvmWGzuM1JB3ZJqGONLPuOlBW2g'
 		break
 		}
 		 
